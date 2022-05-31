@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: system-ui;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F3E5AB;
+}
+
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  background-color: rgb(254, 255, 219);
+}
+
+header {
+  border-bottom: 1px solid #F3E5AB;
+
+  .logo {
+    p {
+      max-width: 140px;
+      margin: auto 5px;
+    }
+  }
+
+  img {
+    padding-right: 4px;
+    border-right: 3px solid black;
+  }
+
+  ul {
+    li {
+      list-style-type: none;
+      margin: 0 10px;
+
+      font-size: 20px;
+    }
+  }
+}
+
+.content {
+  h2 {}
+}
