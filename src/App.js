@@ -11,9 +11,9 @@ function App() {
         <ul className="d-flex">
           <li><a href="#Home">Головна</a></li>
           <li><a href="#About">Про мене</a></li>
-          <li><a href="#">Товари</a></li>
-          <li><a href="#">Відгуки</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li>Товари</li>
+          <li>Відгуки</li>
+          <li>Контакти</li>
         </ul>
       </header>
       <div className="content p-30">
