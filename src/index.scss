@@ -11,9 +11,15 @@ body {
   height: 3000px;
   margin: 0 auto;
 
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
   background-color: rgb(254, 255, 219);
+}
+
+hr {
+  height: 3px;
+  border-width: 0;
+  background-color: #F3E5AB;
 }
 
 header {
@@ -43,13 +49,36 @@ header {
 
 .about {
   h2 {
-    margin: 40px 30px 0;
+    margin: 0 30px 0;
     font-size: 28px;
   }
 
   p {
+    font-size: 20px;
     margin-right: 30px;
   }
+}
 
-  border-bottom: 2px solid #F3E5AB;
+.ware {
+  h2 {
+    margin: 0 30px;
+    font-size: 28px;
+  }
+
+  .cards {
+    padding: 0 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    .card {
+      margin: 20px;
+      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+
+      p {
+        max-width: inherit;
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+  }
 }
