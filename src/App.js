@@ -52,6 +52,14 @@ function App() {
               <img src="/img/ware/6.jpg" alt=""></img>
               <p className="opacity-7 fw-bold">Кофта з люрексу</p>
             </div>
+            <div className="ware_card d-flex flex-column ">
+              <img src="/img/ware/7.jpg" alt=""></img>
+              <p className="opacity-7 fw-bold">Кофта з люрексу</p>
+            </div>
+            <div className="ware_card d-flex flex-column ">
+              <img src="/img/ware/8.jpg" alt=""></img>
+              <p className="opacity-7 fw-bold">Кофта з люрексу</p>
+            </div>
           </div>
         </div>
         <hr></hr>
