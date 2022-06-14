@@ -32,12 +32,14 @@ hr {
 header {
   .logo {
     p {
-      max-width: 140px;
+      font-weight: bold;
+      max-width: 150px;
       margin: auto 5px 0;
     }
   }
 
   img {
+    margin-bottom: 4px;
     padding-right: 4px;
     border-right: 3px solid black;
   }
