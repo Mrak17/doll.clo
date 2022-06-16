@@ -6,7 +6,6 @@ const Header = () => {
             <a href="#Home">
                 <div className="logo d-flex">
                     <img height={60} src="/img/logo_text.svg" alt="Logotype" />
-                    <p className="opacity-7">Магазин лялькового одягу</p>
                 </div>
             </a>
             <div className="menu">
